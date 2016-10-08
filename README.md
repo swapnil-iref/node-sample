@@ -9,3 +9,4 @@ To use:
 * Run `./provision` to provision the load balancer and application servers.
 * Go to `/haproxy?stats` on your load balancer (my_username/my_password). Your app servers should be red and marked as down.
 * Run `./deploy` to deploy your code. In the haproxy stats you should see them marked as green. Going to the root of the load balancer should show the node app.t
+* Check deployment for develop branch
